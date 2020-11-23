@@ -1,0 +1,26 @@
+{
+  "name": "platform-technologies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "johnny-five": "^2.0.0",
+    "serialport": "^9.0.2",
+    "socket.io": "^3.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbm24/Platform-Technologies.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jbm24/Platform-Technologies/issues"
+  },
+  "homepage": "https://github.com/jbm24/Platform-Technologies#readme"
+}
