@@ -1,0 +1,126 @@
+<svg width="1531.5" height="332" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <clipPath id="clip1">
+   <path d="m-0.9375,-239.17188l1534.875,0l0,569l-1534.875,0l0,-569zm0,0" id="svg_1"/>
+  </clipPath>
+  <clipPath id="clip2">
+   <path d="m2696.01563,-86.05469l-1753.71485,1553.38281l-1779.83594,-2009.375l1753.71485,-1553.38281l1779.83594,2009.375zm0,0" id="svg_2"/>
+  </clipPath>
+  <clipPath id="clip3">
+   <path d="m2696.01563,-86.05469l-1753.71485,1553.38281l-1779.83594,-2009.375l1753.71485,-1553.38281l1779.83594,2009.375zm0,0" id="svg_3"/>
+  </clipPath>
+  <clipPath id="clip4">
+   <path d="m1533.83984,243.58204c-561.77343,-229.31641 -1393.91406,315.88672 -1698.41797,-36.48828c-334.4414,-387.02735 -358.35156,-1025.25001 435.96485,-1577.05079c516.39453,-358.92578 910.33203,-389.58203 1543.16797,306.24219c632.83594,695.82422 258.59375,1527.58203 -280.71485,1307.29688zm0,0" id="svg_4"/>
+  </clipPath>
+  <linearGradient id="linear0" x1="0.85655" y1="0.64421" x2="0.40036" y2="0.12748">
+   <stop offset="0" stop-color="rgb(0.189209%,50.672913%,53.28064%)"/>
+   <stop offset="0.01563" stop-color="rgb(0.202942%,50.592041%,53.166199%)"/>
+   <stop offset="0.03125" stop-color="rgb(0.230408%,50.43335%,52.937317%)"/>
+   <stop offset="0.04688" stop-color="rgb(0.256348%,50.274658%,52.709961%)"/>
+   <stop offset="0.0625" stop-color="rgb(0.283813%,50.115967%,52.481079%)"/>
+   <stop offset="0.07813" stop-color="rgb(0.309753%,49.957275%,52.252197%)"/>
+   <stop offset="0.09375" stop-color="rgb(0.337219%,49.798584%,52.024841%)"/>
+   <stop offset="0.10938" stop-color="rgb(0.364685%,49.639893%,51.795959%)"/>
+   <stop offset="0.125" stop-color="rgb(0.390625%,49.481201%,51.568604%)"/>
+   <stop offset="0.14063" stop-color="rgb(0.418091%,49.32251%,51.339722%)"/>
+   <stop offset="0.15625" stop-color="rgb(0.444031%,49.162292%,51.112366%)"/>
+   <stop offset="0.17188" stop-color="rgb(0.471497%,49.003601%,50.883484%)"/>
+   <stop offset="0.1875" stop-color="rgb(0.497437%,48.84491%,50.654602%)"/>
+   <stop offset="0.20313" stop-color="rgb(0.524902%,48.686218%,50.427246%)"/>
+   <stop offset="0.21875" stop-color="rgb(0.552368%,48.527527%,50.198364%)"/>
+   <stop offset="0.23438" stop-color="rgb(0.578308%,48.368835%,49.971008%)"/>
+   <stop offset="0.25" stop-color="rgb(0.605774%,48.210144%,49.742126%)"/>
+   <stop offset="0.26563" stop-color="rgb(0.631714%,48.051453%,49.514771%)"/>
+   <stop offset="0.28125" stop-color="rgb(0.65918%,47.892761%,49.285889%)"/>
+   <stop offset="0.29688" stop-color="rgb(0.686646%,47.732544%,49.057007%)"/>
+   <stop offset="0.3125" stop-color="rgb(0.712585%,47.573853%,48.829651%)"/>
+   <stop offset="0.32813" stop-color="rgb(0.740051%,47.415161%,48.600769%)"/>
+   <stop offset="0.34375" stop-color="rgb(0.765991%,47.25647%,48.373413%)"/>
+   <stop offset="0.35938" stop-color="rgb(0.793457%,47.097778%,48.144531%)"/>
+   <stop offset="0.375" stop-color="rgb(0.820923%,46.939087%,47.917175%)"/>
+   <stop offset="0.39063" stop-color="rgb(0.846863%,46.780396%,47.688293%)"/>
+   <stop offset="0.40625" stop-color="rgb(0.874329%,46.621704%,47.459412%)"/>
+   <stop offset="0.42188" stop-color="rgb(0.900269%,46.461487%,47.232056%)"/>
+   <stop offset="0.4375" stop-color="rgb(0.927734%,46.302795%,47.003174%)"/>
+   <stop offset="0.45313" stop-color="rgb(0.9552%,46.144104%,46.775818%)"/>
+   <stop offset="0.46875" stop-color="rgb(0.98114%,45.985413%,46.546936%)"/>
+   <stop offset="0.48438" stop-color="rgb(1.008606%,45.826721%,46.31958%)"/>
+   <stop offset="0.5" stop-color="rgb(1.034546%,45.66803%,46.090698%)"/>
+   <stop offset="0.51563" stop-color="rgb(1.062012%,45.509338%,45.861816%)"/>
+   <stop offset="0.53125" stop-color="rgb(1.089478%,45.350647%,45.63446%)"/>
+   <stop offset="0.54688" stop-color="rgb(1.115417%,45.191956%,45.405579%)"/>
+   <stop offset="0.5625" stop-color="rgb(1.142883%,45.031738%,45.178223%)"/>
+   <stop offset="0.59375" stop-color="rgb(1.2146%,44.909668%,44.934082%)"/>
+   <stop offset="0.60156" stop-color="rgb(1.321411%,44.970703%,44.871521%)"/>
+   <stop offset="0.60938" stop-color="rgb(1.416016%,45.178223%,45.002747%)"/>
+   <stop offset="0.61719" stop-color="rgb(1.509094%,45.387268%,45.135498%)"/>
+   <stop offset="0.625" stop-color="rgb(1.603699%,45.594788%,45.266724%)"/>
+   <stop offset="0.63281" stop-color="rgb(1.696777%,45.803833%,45.399475%)"/>
+   <stop offset="0.64063" stop-color="rgb(1.791382%,46.011353%,45.530701%)"/>
+   <stop offset="0.64844" stop-color="rgb(1.88446%,46.220398%,45.663452%)"/>
+   <stop offset="0.65625" stop-color="rgb(1.979065%,46.427917%,45.794678%)"/>
+   <stop offset="0.66406" stop-color="rgb(2.073669%,46.636963%,45.927429%)"/>
+   <stop offset="0.67188" stop-color="rgb(2.166748%,46.844482%,46.060181%)"/>
+   <stop offset="0.67969" stop-color="rgb(2.261353%,47.053528%,46.191406%)"/>
+   <stop offset="0.6875" stop-color="rgb(2.354431%,47.261047%,46.324158%)"/>
+   <stop offset="0.69531" stop-color="rgb(2.449036%,47.470093%,46.455383%)"/>
+   <stop offset="0.70313" stop-color="rgb(2.542114%,47.677612%,46.588135%)"/>
+   <stop offset="0.71094" stop-color="rgb(2.636719%,47.886658%,46.71936%)"/>
+   <stop offset="0.71875" stop-color="rgb(2.729797%,48.094177%,46.852112%)"/>
+   <stop offset="0.72656" stop-color="rgb(2.824402%,48.303223%,46.983337%)"/>
+   <stop offset="0.73438" stop-color="rgb(2.919006%,48.510742%,47.116089%)"/>
+   <stop offset="0.74219" stop-color="rgb(3.012085%,48.719788%,47.247314%)"/>
+   <stop offset="0.75" stop-color="rgb(3.106689%,48.927307%,47.380066%)"/>
+   <stop offset="0.75781" stop-color="rgb(3.199768%,49.136353%,47.511292%)"/>
+   <stop offset="0.76563" stop-color="rgb(3.294373%,49.343872%,47.644043%)"/>
+   <stop offset="0.77344" stop-color="rgb(3.387451%,49.552917%,47.776794%)"/>
+   <stop offset="0.78125" stop-color="rgb(3.482056%,49.760437%,47.90802%)"/>
+   <stop offset="0.78906" stop-color="rgb(3.57666%,49.967957%,48.040771%)"/>
+   <stop offset="0.79688" stop-color="rgb(3.669739%,50.177002%,48.171997%)"/>
+   <stop offset="0.80469" stop-color="rgb(3.764343%,50.384521%,48.304749%)"/>
+   <stop offset="0.8125" stop-color="rgb(3.857422%,50.593567%,48.435974%)"/>
+   <stop offset="0.82031" stop-color="rgb(3.952026%,50.801086%,48.568726%)"/>
+   <stop offset="0.82813" stop-color="rgb(4.045105%,51.010132%,48.699951%)"/>
+   <stop offset="0.83594" stop-color="rgb(4.139709%,51.217651%,48.832703%)"/>
+   <stop offset="0.84375" stop-color="rgb(4.232788%,51.426697%,48.963928%)"/>
+   <stop offset="0.85156" stop-color="rgb(4.327393%,51.634216%,49.09668%)"/>
+   <stop offset="0.85938" stop-color="rgb(4.421997%,51.843262%,49.227905%)"/>
+   <stop offset="0.86719" stop-color="rgb(4.515076%,52.050781%,49.360657%)"/>
+   <stop offset="0.875" stop-color="rgb(4.60968%,52.259827%,49.491882%)"/>
+   <stop offset="0.88281" stop-color="rgb(4.702759%,52.467346%,49.624634%)"/>
+   <stop offset="0.89063" stop-color="rgb(4.797363%,52.676392%,49.757385%)"/>
+   <stop offset="0.89844" stop-color="rgb(4.890442%,52.883911%,49.888611%)"/>
+   <stop offset="0.90625" stop-color="rgb(4.985046%,53.092957%,50.021362%)"/>
+   <stop offset="0.91406" stop-color="rgb(5.079651%,53.300476%,50.152588%)"/>
+   <stop offset="0.92188" stop-color="rgb(5.172729%,53.509521%,50.285339%)"/>
+   <stop offset="0.92969" stop-color="rgb(5.267334%,53.717041%,50.416565%)"/>
+   <stop offset="0.9375" stop-color="rgb(5.360413%,53.926086%,50.549316%)"/>
+   <stop offset="0.94531" stop-color="rgb(5.455017%,54.133606%,50.680542%)"/>
+   <stop offset="0.95313" stop-color="rgb(5.548096%,54.342651%,50.813293%)"/>
+   <stop offset="0.96094" stop-color="rgb(5.6427%,54.550171%,50.944519%)"/>
+   <stop offset="0.96875" stop-color="rgb(5.735779%,54.759216%,51.077271%)"/>
+   <stop offset="0.97656" stop-color="rgb(5.830383%,54.966736%,51.208496%)"/>
+   <stop offset="0.98438" stop-color="rgb(5.924988%,55.175781%,51.341248%)"/>
+   <stop offset="0.99219" stop-color="rgb(6.018066%,55.383301%,51.473999%)"/>
+   <stop offset="1" stop-color="rgb(6.112671%,55.592346%,51.605225%)"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="1533.5" height="334" id="canvas_background" fill="none"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g id="surface1">
+   <g clip-path="url(#clip1)" clip-rule="nonzero" id="svg_5">
+    <g clip-path="url(#clip2)" clip-rule="nonzero" id="svg_6">
+     <g clip-path="url(#clip3)" clip-rule="nonzero" id="svg_7">
+      <g clip-path="url(#clip4)" clip-rule="nonzero" id="svg_8">
+       <path d="m670.86328,1106.65626l1149.94141,-1018.57813l-964.66797,-1089.07813l-1149.94141,1018.58204l964.66797,1089.07422zm0,0" fill="url(#linear0)" fill-rule="nonzero" id="svg_9"/>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>
