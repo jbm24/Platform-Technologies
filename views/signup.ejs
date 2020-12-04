@@ -1,15 +1,43 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign up</title>
+  <link rel="stylesheet" href="/styles.css">
+  <link href="../homepage/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Raleway&display=swap" rel="stylesheet">
+</head>
+<body class="backTwo">
+
 <%- include('partials/header'); -%>
 
-<form>
-    <h2>Sign Up</h2>
-    <label for="email">Email</label>
-    <input type="text" name="email" required>
-    <div class="email error"></div>
-    <label for="password">Password</label>
-    <input type="password" name="password" required>
-    <div class="password error"></div>
-    <button>Sign Up</button>
-</form>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+            <div class="row justify-content-center" style="text-align: center;">
+                <div class="grid-container">
+                    <div class="col-md-4 cardImage">
+                    </div>
+                    <div class="col-md-4 supCard">
+                        <form class="signUpForm">
+                            <h2 class="signUpHeader">Sign Up</h2>
+                            <div class="formGroup">
+                                <input type="text" class=" signUpInput" placeholder="Email Address" name="email" required />
+                                <div class="email error"></div>
+                            </div>
+                            <div class="formGroup">
+                                <input type="password" class="signUpInput" placeholder="Password" name="password" required />
+                                <div class="password error"></div>
+                            </div>
+                            <center style="padding-bottom: 100px;"><button>Sign up</button></center>
+                        </form>
+                    </div>
+                </div>
+			</div>
+		</div>
+	</div>
+</div>
 
 
 
@@ -53,3 +81,5 @@
 </script>
 
 <%- include('partials/footer'); -%>
+</body>
+</html>

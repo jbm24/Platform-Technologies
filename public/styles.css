@@ -2,10 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 body{
-  margin: 20px 40px;
   font-size: 1.2rem;
   letter-spacing: 1px;
-  background: #fafafa;
+  margin: 0px;
 }
 h1, h2, h3, h4, ul, li, a, p, input, label, button, div, footer{
   margin: 0;
@@ -24,6 +23,9 @@ nav{
   justify-content: space-between;
   align-items: flex-end;
   margin-bottom: 120px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 nav ul{
   display: flex;
@@ -49,7 +51,7 @@ form h2{
   font-weight: 900;
   margin-bottom: 40px;
 }
-form{
+.former{
   width: 360px;
   margin: 0 auto;
   padding: 30px;
@@ -57,12 +59,29 @@ form{
   border-radius: 10px;
   background: white;
 }
+.signIn{
+  border-radius: 124px;
+  min-width: 656px;
+  min-height: 490px;
+  filter: drop-shadow(13px 10px 15px rgba(0, 0, 0, 0.2));
+}
+.Lheader{
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
 input{
   padding: 10px 12px;
   border-radius: 4px;
   border: 1px solid #ddd;
   font-size: 1em;
-  width: 100%;
+  width: 500px;
+  margin: 0 auto;
+}
+.fieldInput{
+  text-align: center;
+  margin-bottom: 10px;
+  border-radius: 124px;
 }
 label{
   display: block;
@@ -70,7 +89,7 @@ label{
 }
 button{
   margin-top: 30px;
-  border-radius: 36px;
+  border-radius: 110px;
   background: #FEE996;
   border:0;
   text-transform: uppercase;
@@ -134,6 +153,56 @@ header .btn{
 }
 footer{
   text-align: center;
-  margin-top: 120px;
+  margin-top: 100px;
+  margin-bottom: 50px;
   color: #aaa;
+}
+.back{
+  background: url(/SignIn.svg) no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.backTwo{
+  background: url(/SignUp.svg) no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.cardImage{
+  width: 100%;
+  height: 100%;
+  background: url(/NewCreate.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  filter: drop-shadow(13px 10px 15px rgba(0, 0, 0, 0.2));
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.signUpForm{
+  padding-top: 100px;
+  
+}
+.signUpHeader{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 36px;
+  color: #037272;
+  padding-bottom: 30px;
+}
+.formGroup{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.signUpInput{
+  text-align: center; 
+  width: 70%;
+}
+.supCard{
+  width: 60%; 
+  background-color: white; 
+  filter: drop-shadow(13px 10px 15px rgba(0, 0, 0, 0.2));
 }
