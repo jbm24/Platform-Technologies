@@ -1,5 +1,5 @@
 var moment = require('moment')().format('HH:mm:ss');
-var five = require("johnny-five");
+var five = require("johnny-five"), board, lcd;
 var board = new five.Board();
 var mysql = require('mysql');
 var date_ob = new Date();
@@ -11,9 +11,7 @@ var con = mysql.createConnection({
   database: "platform_tech"
 });
 
-
 var count = 0;
-var id = 0;
 
 con.connect(function(err) {
   if (err) throw err;
@@ -22,28 +20,41 @@ con.connect(function(err) {
   con.query(sql, function (err, result) {
     if (err) throw err;
     console.log("1 record inserted");
-    id++;
   });
 });
 
-console.log(date_ob.getTime());
-console.log(moment);
 
 board.on("ready", function() {
 
+  //lcd initialization
+  lcd = new five.LCD({
+    pins: [12, 11, 5, 4, 3, 2],
+    backlight: 13
+  });
+
   // Create a new `motion` hardware instance.
-  var motion = new five.Motion(2);
+  var motion = new five.Motion(7);
 
   // "calibrated" occurs once, at the beginning of a session,
   motion.on("calibrated", function() {
     console.log("calibrated");
   });
 
+  // lcd writing
+  lcd.cursor(0, 0);
+  lcd.print("# of people:");
+
   // "motionstart" events are fired when the "calibrated"
   // proximal area is disrupted, generally by some form of movement
   motion.on("motionstart", function() {
     console.log("motionstart");
   });
+
+  var getCount = "SELECT id FROM people_data ORDER BY id DESC;"
+  con.query(getCount, function (err, result) {
+  if (err) throw err;
+  id = result[0].id;
+});
 
   // "motionend" events are fired following a "motionstart" event
   // when no movement has occurred in X ms
@@ -56,12 +67,11 @@ board.on("ready", function() {
       if (err) throw err;
       console.log("1 record updated");
     });
+    var grab = "SELECT no_of_people FROM people_data ORDER BY id DESC";
+    con.query(grab, function (err, results) {
+      if (err) throw err;
+      lcd.cursor(1, 0).print(results[0].no_of_people);
+    });
   });
 
-  // "data" events are fired at the interval set in opts.freq
-  // or every 25ms. Uncomment the following to see all
-  // motion detection readings.
-  // motion.on("data", function(data) {
-  //   console.log(data);
-  // });
 });
