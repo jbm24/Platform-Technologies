@@ -1,8 +1,5 @@
-Please install nodemon globally (this allows our app to listen to ports)
+the database is named platform_tech.sql
 
-1. type in "npm install -g nodemon" in your CMD 
-2. check nodemon "nodemon -v"
-3. u can then type "nodemon app" in your vscode terminal so you can listen to the application
-4. type in localhost:3000 in your browser to open the application
+the code for everything is in final_project.js
 
-If you have any questions or errors please contact me in discord
+we were supposed to add some front-end, hence the other folders, but we didn't have enough time
